@@ -57,7 +57,7 @@
         "file": "@PROJECT_PATH@/fonts/Starlight-w1VvZ/font.otf"
       }
     ],
-    "uniqCompNum": 29,
+    "uniqCompNum": 35,
     "versionPublish": "5.9.18",
     "screenshot": "screenshot.png",
     "imageResize": true,
@@ -80,8 +80,8 @@
     "index.html": {
       "settings": {
         "main": true,
-        "title": "RinMyosotis",
-        "meta_descr": "Per Ardua Ad Astra",
+        "title": "Rin Myosotis - Per Ardua Ad Astra",
+        "meta_descr": "A wolf seeking to claim starlight atop the glittering tower for his eternal, undying wish. Per Ardua Ad Astra.",
         "header_custom": "",
         "footer_custom": "",
         "html_before": "",
@@ -1231,7 +1231,7 @@
     "about.html": {
       "settings": {
         "title": "About",
-        "order": "1"
+        "order": "2"
       },
       "components": [
         {
@@ -2313,7 +2313,7 @@
     "reference.html": {
       "settings": {
         "title": "Reference",
-        "order": "2"
+        "order": "3"
       },
       "components": [
         {
