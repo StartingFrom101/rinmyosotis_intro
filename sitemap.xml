@@ -1,11 +1,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 	<url>
-		<loc>https://rinmyosotis.my.id/test.html</loc>
+		<loc>https://rinmyosotis.my.id/index.html</loc>
+	</url>
+	<url>
+		<loc>https://rinmyosotis.my.id/about.html</loc>
 	</url>
 	<url>
 		<loc>https://rinmyosotis.my.id/reference.html</loc>
-	</url>
-	<url>
-		<loc>https://rinmyosotis.my.id/index.html</loc>
 	</url>
 </urlset>
