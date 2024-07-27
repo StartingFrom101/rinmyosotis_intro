@@ -1,3 +1,43 @@
+<style>
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: #161825;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+.loader_item {
+  width: 200px;
+  aspect-ratio: 1;
+  color: #8eb2d2;
+  background:
+    radial-gradient(150% 150% at left  -40% top    -40%,#0000 98%,currentColor) left  top,
+    radial-gradient(150% 150% at right -40% top    -40%,#0000 98%,currentColor) right top,
+    radial-gradient(150% 150% at left  -40% bottom -40%,#0000 98%,currentColor) left  bottom,
+    radial-gradient(150% 150% at right -40% bottom -40%,#0000 98%,currentColor) right bottom;
+  background-size: 50.3% 50.3%;
+  background-repeat: no-repeat;
+  -webkit-mask: radial-gradient(circle 5px,#0000 90%,#000);
+  animation: l7 1.5s infinite linear;
+}
+@keyframes l7 { 
+  100%{transform: rotate(1turn)}
+}
+</style>
+
+<div class="loader">
+<div class="loader_item"> </div> 
+</div>
+
+
+
 <!DOCTYPE html>
 <html  lang="en">
 <head>
@@ -25,7 +65,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=6RCoCI"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=6RCoCI" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=zMBupG"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=zMBupG" type="text/css">
 
   
   
@@ -33,6 +73,38 @@
 </head>
 <body>
   
+<style>
+.loader {
+    -webkit-animation: load-out 1s;
+    animation: load-out 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+</style>
   <section data-bs-version="5.1" class="menu menu2 cid-ujyz2usQvR" once="menu" id="menu02-e">
 	
 
@@ -201,14 +273,12 @@
                         </div>
                         <div id="tab4" class="tab-pane" role="tabpanel">
                             <div class="row">
-                            <div class="row">
                                 <div class="col-md-8">
                                     <p class="mbr-text mbr-fonts-style display-7"><strong>Revue Uniform</strong><br><br>Song and performance interwoven on a mesmerizing stage. The cloak pinned on one's shoulder is what they must protect during their Revue. If it falls, the Revue is over.</p>
                                 </div>
                                 <div class="col-md-4">
                                   <img src="assets/images/body-474x517.png" alt="Armor">
                                 </div>
-                            </div>
                             </div>
                         </div>
                         

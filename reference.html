@@ -1,3 +1,43 @@
+<style>
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  background-color: #161825;
+  opacity: 1;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1001;
+}
+
+.loader_item {
+  width: 200px;
+  aspect-ratio: 1;
+  color: #8eb2d2;
+  background:
+    radial-gradient(150% 150% at left  -40% top    -40%,#0000 98%,currentColor) left  top,
+    radial-gradient(150% 150% at right -40% top    -40%,#0000 98%,currentColor) right top,
+    radial-gradient(150% 150% at left  -40% bottom -40%,#0000 98%,currentColor) left  bottom,
+    radial-gradient(150% 150% at right -40% bottom -40%,#0000 98%,currentColor) right bottom;
+  background-size: 50.3% 50.3%;
+  background-repeat: no-repeat;
+  -webkit-mask: radial-gradient(circle 5px,#0000 90%,#000);
+  animation: l7 1.5s infinite linear;
+}
+@keyframes l7 { 
+  100%{transform: rotate(1turn)}
+}
+</style>
+
+<div class="loader">
+<div class="loader_item"> </div> 
+</div>
+
+
+
 <!DOCTYPE html>
 <html  lang="en">
 <head>
@@ -20,7 +60,7 @@
   <link rel="stylesheet" href="assets/socicon/css/styles.css">
   <link rel="stylesheet" href="assets/theme/css/style.css">
   <link href="assets/fonts/style.css" rel="stylesheet">
-  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=QYHULX"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=QYHULX" type="text/css">
+  <link rel="preload" as="style" href="assets/mobirise/css/mbr-additional.css?v=7EowEd"><link rel="stylesheet" href="assets/mobirise/css/mbr-additional.css?v=7EowEd" type="text/css">
 
   
   
@@ -28,6 +68,38 @@
 </head>
 <body>
   
+<style>
+.loader {
+    -webkit-animation: load-out 1s;
+    animation: load-out 1s;
+    -webkit-animation-fill-mode: forwards;
+    animation-fill-mode: forwards;
+}
+
+@-webkit-keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes load-out {
+    from {
+        top: 0;
+        opacity: 1;
+    }
+
+    to {
+        top: 100%;
+        opacity: 0;
+    }
+}
+</style>
   <section data-bs-version="5.1" class="menu menu2 cid-ujyz2usQvR" once="menu" id="menu02-j">
 	
 
@@ -76,8 +148,8 @@
         </div>
         <div class="row mbr-gallery mt-4">
             <div class="col-12 col-lg-12 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#ujEKKKIrIT-modal" data-bs-target="#ujEKKKIrIT-modal">
-                    <img class="w-100" src="assets/images/sfw-rin-v3-1422x836.png" alt="Ver3_SFW" data-slide-to="0" data-bs-slide-to="0" data-target="#lb-ujEKKKIrIT" data-bs-target="#lb-ujEKKKIrIT">
+                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#ujKBnY6jmW-modal" data-bs-target="#ujKBnY6jmW-modal">
+                    <img class="w-100" src="assets/images/sfw-rin-v3-1422x836.png" alt="Ver3_SFW" data-slide-to="0" data-bs-slide-to="0" data-target="#lb-ujKBnY6jmW" data-bs-target="#lb-ujKBnY6jmW">
                     <div class="icon-wrapper">
                         <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                     </div>
@@ -89,11 +161,11 @@
             
         </div>
 
-        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="ujEKKKIrIT-modal">
+        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="ujKBnY6jmW-modal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div class="carousel slide" id="lb-ujEKKKIrIT" data-interval="5000" data-bs-interval="5000">
+                        <div class="carousel slide" id="lb-ujKBnY6jmW" data-interval="5000" data-bs-interval="5000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="assets/images/sfw-rin-v3-1422x836.png" alt="Mobirise Website Builder">
@@ -103,18 +175,18 @@
                                 
                             </div>
                             <ol class="carousel-indicators">
-                                <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#lb-ujEKKKIrIT" data-bs-target="#lb-ujEKKKIrIT"></li>
+                                <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#lb-ujKBnY6jmW" data-bs-target="#lb-ujKBnY6jmW"></li>
                                 
                                 
                                 
                             </ol>
                             <a role="button" href="" class="close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
                             </a>
-                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" data-bs-slide="prev" href="#lb-ujEKKKIrIT">
+                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" data-bs-slide="prev" href="#lb-ujKBnY6jmW">
                                 <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
                                 <span class="sr-only visually-hidden">Previous</span>
                             </a>
-                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" data-bs-slide="next" href="#lb-ujEKKKIrIT">
+                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" data-bs-slide="next" href="#lb-ujKBnY6jmW">
                                 <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
                                 <span class="sr-only visually-hidden">Next</span>
                             </a>
@@ -139,8 +211,8 @@
         </div>
         <div class="row mbr-gallery mt-4">
             <div class="col-12 col-md-6 col-lg-6 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#ujEKKLsbRq-modal" data-bs-target="#ujEKKLsbRq-modal">
-                    <img class="w-100" src="assets/images/ref-v2-sfw-1256x787.png" alt="V2_SFW" data-slide-to="0" data-bs-slide-to="0" data-target="#lb-ujEKKLsbRq" data-bs-target="#lb-ujEKKLsbRq">
+                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#ujKBnYjKBU-modal" data-bs-target="#ujKBnYjKBU-modal">
+                    <img class="w-100" src="assets/images/ref-v2-sfw-1256x787.png" alt="V2_SFW" data-slide-to="0" data-bs-slide-to="0" data-target="#lb-ujKBnYjKBU" data-bs-target="#lb-ujKBnYjKBU">
                     <div class="icon-wrapper">
                         <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                     </div>
@@ -148,8 +220,8 @@
                 <h6 class="mbr-item-subtitle mbr-fonts-style align-center mb-2 mt-2 display-7">Version 2: Revamp</h6>
             </div>
             <div class="col-12 col-md-6 col-lg-6 item gallery-image">
-                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#ujEKKLsbRq-modal" data-bs-target="#ujEKKLsbRq-modal">
-                    <img class="w-100" src="assets/images/66871143-j0smhy9cldwnddh-1200x909.png" alt="V1" data-slide-to="1" data-bs-slide-to="1" data-target="#lb-ujEKKLsbRq" data-bs-target="#lb-ujEKKLsbRq">
+                <div class="item-wrapper" data-toggle="modal" data-bs-toggle="modal" data-target="#ujKBnYjKBU-modal" data-bs-target="#ujKBnYjKBU-modal">
+                    <img class="w-100" src="assets/images/66871143-j0smhy9cldwnddh-1200x909.png" alt="V1" data-slide-to="1" data-bs-slide-to="1" data-target="#lb-ujKBnYjKBU" data-bs-target="#lb-ujKBnYjKBU">
                     <div class="icon-wrapper">
                         <span class="mobi-mbri mobi-mbri-search mbr-iconfont mbr-iconfont-btn"></span>
                     </div>
@@ -160,11 +232,11 @@
             
         </div>
 
-        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="ujEKKLsbRq-modal">
+        <div class="modal mbr-slider" tabindex="-1" role="dialog" aria-hidden="true" id="ujKBnYjKBU-modal">
             <div class="modal-dialog" role="document">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <div class="carousel slide" id="lb-ujEKKLsbRq" data-interval="5000" data-bs-interval="5000">
+                        <div class="carousel slide" id="lb-ujKBnYjKBU" data-interval="5000" data-bs-interval="5000">
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
                                     <img class="d-block w-100" src="assets/images/ref-v2-sfw-1256x787.png" alt="Mobirise Website Builder">
@@ -176,18 +248,18 @@
                                 
                             </div>
                             <ol class="carousel-indicators">
-                                <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#lb-ujEKKLsbRq" data-bs-target="#lb-ujEKKLsbRq"></li>
-                                <li data-slide-to="1" data-bs-slide-to="1" data-target="#lb-ujEKKLsbRq" data-bs-target="#lb-ujEKKLsbRq"></li>
+                                <li data-slide-to="0" data-bs-slide-to="0" class="active" data-target="#lb-ujKBnYjKBU" data-bs-target="#lb-ujKBnYjKBU"></li>
+                                <li data-slide-to="1" data-bs-slide-to="1" data-target="#lb-ujKBnYjKBU" data-bs-target="#lb-ujKBnYjKBU"></li>
                                 
                                 
                             </ol>
                             <a role="button" href="" class="close" data-dismiss="modal" data-bs-dismiss="modal" aria-label="Close">
                             </a>
-                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" data-bs-slide="prev" href="#lb-ujEKKLsbRq">
+                            <a class="carousel-control-prev carousel-control" role="button" data-slide="prev" data-bs-slide="prev" href="#lb-ujKBnYjKBU">
                                 <span class="mobi-mbri mobi-mbri-arrow-prev" aria-hidden="true"></span>
                                 <span class="sr-only visually-hidden">Previous</span>
                             </a>
-                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" data-bs-slide="next" href="#lb-ujEKKLsbRq">
+                            <a class="carousel-control-next carousel-control" role="button" data-slide="next" data-bs-slide="next" href="#lb-ujKBnYjKBU">
                                 <span class="mobi-mbri mobi-mbri-arrow-next" aria-hidden="true"></span>
                                 <span class="sr-only visually-hidden">Next</span>
                             </a>
