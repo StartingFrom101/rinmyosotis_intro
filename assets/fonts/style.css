@@ -1,10 +1,5 @@
 @font-face {
-   font-family: 'Starlight-w1VvZ';
+   font-family: 'StarLightMain';
    font-display: swap;
-   src: url('Starlight-w1VvZ/font.otf');
-}
-@font-face {
-   font-family: 'Raleway-VariableFont_wght';
-   font-display: swap;
-   src: url('Raleway-VariableFont_wght/font.ttf');
+   src: url('StarLightMain/font.woff');
 }
